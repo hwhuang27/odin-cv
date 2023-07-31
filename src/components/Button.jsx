@@ -1,10 +1,10 @@
 function Button({type}) {
 
     if(type === 'submit'){
-        return <button>Submit</button>
+        return <button className="submit">Submit</button>
     }
     else if(type === 'edit'){
-        return <button>Edit</button>
+        return <button className = "edit">Edit</button>
     }
     
 }
