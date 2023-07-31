@@ -44,6 +44,7 @@
 .content{
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 24px;
 }
 
 .section{
@@ -84,6 +85,7 @@ input[type=date]{
 .info-btn{
   border: 2px solid gray;
   margin-bottom: 20px;
+  width: 124px;
 }
 
 .form-btn-group{
@@ -93,17 +95,15 @@ input[type=date]{
   margin: 0 24px 0;
 }
 
-.submit{
+.btn{
   border: 2px solid gray;
   margin-bottom: 20px;
-}
-
-.edit{
-  border: 2px solid gray;
-  margin-bottom: 20px;
+  width: 156px;
+  justify-self: center;
 }
 
 .display{
-  height: 90vh;
-  border: 4px solid black;
+  border: 3px solid black;
+  border-radius: 24px;
+  padding: 0 128px;
 }
