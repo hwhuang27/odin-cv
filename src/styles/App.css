@@ -105,5 +105,12 @@ input[type=date]{
 .display{
   border: 3px solid black;
   border-radius: 24px;
-  padding: 0 128px;
+  padding: 0 64px;
+  min-width: 240px;
+  max-width: 360px;
+  height: 91vh;
+}
+
+.display h1{
+  font-size: 36px;
 }
