@@ -1,5 +1,4 @@
 function Button({type, onClick}) {
-
     return(
         <button
             form="form"
