@@ -1,11 +1,13 @@
-function Button({type}) {
+function Button({type, onClick}) {
 
-    if(type === 'submit'){
-        return <button className="btn">Submit</button>
-    }
-    else if(type === 'edit'){
-        return <button className="btn">Edit</button>
-    }
+    return(
+        <button
+            form="form"
+            className="btn"
+            onClick={onClick}>
+                {type}
+            </button>
+    )  
 }
 
 export default Button;

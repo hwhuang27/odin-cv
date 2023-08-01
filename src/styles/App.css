@@ -88,7 +88,7 @@ input[type=date]{
   width: 124px;
 }
 
-.form-btn-group{
+.btn-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 36px;
